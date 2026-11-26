@@ -1,4 +1,4 @@
-r"""E10 — Hybrid reconstruction: U-Net prior + iterative data consistency.
+r"""Hybrid reconstruction: U-Net prior + iterative data consistency.
 =========================================================================
 
 MOTIVATION (from the thesis's own findings)
@@ -26,16 +26,16 @@ The measured sinogram b is re-simulated as Ax(ground truth) with the exact
 geometry and angle set recorded in the dataset's meta.json — identical to how
 the dataset generator produced the inputs, so it IS the measured data for the
 noiseless datasets this script supports (pilot_v1, pilot_shapes,
-e6_lodopab_test). Do not point it at the Poisson-noise datasets: their noise
+lodopab_test). Do not point it at the Poisson-noise datasets: their noise
 realisations cannot be reproduced here, so Ax(GT) would not be the measured b.
 
 USAGE (from the repository root, tigre env)
 -----------------------------
   python reconstruct_hybrid.py --data data/pilot_v1        --split val
   python reconstruct_hybrid.py --data data/pilot_shapes    --split val
-  python reconstruct_hybrid.py --data data/e6_lodopab_test --split all
+  python reconstruct_hybrid.py --data data/lodopab_test --split all
 
-Outputs (under training\runs\hybrid_e10\<dataset-name>\):
+Outputs (under training\runs\hybrid\<dataset-name>\):
   hybrid_summary.json     mean PSNR/SSIM for FBP input, U-Net, and hybrid
   hybrid_comparison.png   FBP / U-Net / Hybrid / GT columns with PSNRs
 """
@@ -198,7 +198,7 @@ def main():
     p.add_argument("--data", default=os.path.join("data", "pilot_v1"))
     p.add_argument("--split", choices=["val", "all"], default="val",
                    help="'val': the standard held-out split (seed 42, 10%%); "
-                        "'all': every pair (use for the e6 test set)")
+                        "'all': every pair (use for the LoDoPaB test set)")
     p.add_argument("--cycles", type=int, default=1,
                    help="prior/data-consistency cycles (ends on DC, so the "
                         "output always honours the measurements exactly)")
@@ -250,7 +250,7 @@ def main():
                 yield (x_t.numpy()[0].astype(np.float32),
                        y_t.numpy()[0].astype(np.float32))
         n_total = len(val_ds)
-    else:  # all pairs, in file order (the e6 test set is wholly held out)
+    else:  # all pairs, in file order (the LoDoPaB test set is wholly held out)
         inp_dir = os.path.join(args.data, "inputs")
         tgt_dir = os.path.join(args.data, "targets")
         names = sorted(os.listdir(tgt_dir))
@@ -268,7 +268,7 @@ def main():
             checkpoints += [50, 75, 100, 150]
         curve, n_used = tradeoff_sweep(net, device, pairs, geo, angles,
                                        checkpoints, args.sweep_n)
-        out_dir = os.path.join("training", "runs", "hybrid_e10",
+        out_dir = os.path.join("training", "runs", "hybrid",
                                os.path.basename(os.path.normpath(args.data)))
         os.makedirs(out_dir, exist_ok=True)
         with open(os.path.join(out_dir, "tradeoff_sweep.json"), "w") as f:
@@ -344,7 +344,7 @@ def main():
     summary["hybrid_minus_unet_psnr"] = (summary["hybrid_psnr"]
                                          - summary["unet_psnr"])
 
-    out_dir = os.path.join("training", "runs", "hybrid_e10",
+    out_dir = os.path.join("training", "runs", "hybrid",
                            os.path.basename(os.path.normpath(args.data)))
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "hybrid_summary.json"), "w") as f:

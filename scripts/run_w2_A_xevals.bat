@@ -4,7 +4,7 @@ REM  run_w2_A_xevals.bat -- Block A: cross-condition evaluations (~10 min)
 REM
 REM  Scores EXISTING checkpoints on datasets they were not trained for:
 REM    base_on_90deg / base_on_150deg : 120-deg baseline model on 90/150-deg data
-REM    clean_on_i0_1e6/1e5/1e4        : e7_clean model on the noisy phys_i0 sets
+REM    clean_on_i0_1e6/1e5/1e4        : noise_noiseless model on the noisy phys_i0 sets
 REM  No training. Checkpoints are COPIED into training\runs\xeval\<name>\ so the
 REM  source runs' eval_summary.json is never overwritten; copies are deleted.
 REM  Skip-if-done. Progress: logs\week2_status.txt
@@ -20,9 +20,9 @@ echo Block A (xevals) started %date% %time% >> logs\week2_status.txt
 
 call :xeval base_on_90deg   training\runs\20260622_154318\best_model.pt data/pilot_90deg  42
 call :xeval base_on_150deg  training\runs\20260622_154318\best_model.pt data/pilot_150deg 42
-call :xeval clean_on_i0_1e6 training\runs\e7_clean\best_model.pt        data/phys_i0_1e6  42
-call :xeval clean_on_i0_1e5 training\runs\e7_clean\best_model.pt        data/phys_i0_1e5  42
-call :xeval clean_on_i0_1e4 training\runs\e7_clean\best_model.pt        data/phys_i0_1e4  42
+call :xeval clean_on_i0_1e6 training\runs\noise_noiseless\best_model.pt        data/phys_i0_1e6  42
+call :xeval clean_on_i0_1e5 training\runs\noise_noiseless\best_model.pt        data/phys_i0_1e5  42
+call :xeval clean_on_i0_1e4 training\runs\noise_noiseless\best_model.pt        data/phys_i0_1e4  42
 
 echo Block A done %date% %time% >> logs\week2_status.txt
 python -u collect_week2_results.py >logs\week2_results.txt 2>&1

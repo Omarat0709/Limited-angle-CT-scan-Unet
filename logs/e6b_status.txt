@@ -1,8 +1,0 @@
-============================================== 
-E6b started  19/07/2026 18:18:12.16 
-download+extract done  18:27:14.09 
-dataset built  18:30:26.14 
-finetune done  19:51:34.92 
-scratch done  21:01:07.15 
-evals done  21:02:15.35 
-E6b finished 19/07/2026 21:02:15.36 

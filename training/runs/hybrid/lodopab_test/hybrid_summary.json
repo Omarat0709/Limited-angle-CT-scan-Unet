@@ -1,0 +1,16 @@
+{
+  "data": "data/lodopab_test",
+  "ckpt": "training\\runs\\20260622_154318\\best_model.pt",
+  "n": 300,
+  "cycles": 1,
+  "grid_step_deg": 0.25,
+  "dc_solver": "ossart",
+  "dc_iters": 15,
+  "fbp_psnr": 18.09669465271129,
+  "fbp_ssim": 0.5788713571937893,
+  "unet_psnr": 15.031003108047392,
+  "unet_ssim": 0.481816951841556,
+  "hybrid_psnr": 15.304389850126332,
+  "hybrid_ssim": 0.4844310308593482,
+  "hybrid_minus_unet_psnr": 0.27338674207894087
+}

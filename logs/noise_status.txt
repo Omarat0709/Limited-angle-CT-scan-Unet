@@ -1,0 +1,15 @@
+============================================== 
+Noise study started  21/07/2026 16:55:27.25 
+diagnostic done 16:55:29.07 
+============================================== 
+Noise study started  21/07/2026 16:56:12.04 
+diagnostic done 16:56:13.57 
+============================================== 
+Noise study started  21/07/2026 17:00:51.08 
+diagnostic done 17:00:52.69 
+datasets built 17:01:32.78 
+noise_noiseless done 18:14:49.23 
+noise_i0_1e6 done 19:31:48.57 
+noise_i0_1e5 done 20:49:33.18 
+noise_i0_1e4 done 22:10:38.99 
+Noise study finished 21/07/2026 22:10:38.99 

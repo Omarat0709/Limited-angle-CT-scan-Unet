@@ -3,7 +3,7 @@ REM ============================================================================
 REM  run_w2_B_seeds.bat -- Block B: seed-robustness repeats (~2.5 h)
 REM
 REM  Retrains the baseline configuration on pilot_v1 with seeds 43 and 44
-REM  (~75 min each, per E7 measured actuals). Turns the single-seed 36.45 dB
+REM  (~75 min each, per the noise study's measured actuals). Turns the single-seed 36.45 dB
 REM  claim into mean +/- std. Evaluation reuses the SAME seed as training so
 REM  the validation split reproduces.
 REM  Skip-if-done. Progress: logs\week2_status.txt

@@ -3,9 +3,9 @@ Figure 4.7 (v2): dose response of the learned reconstruction, with the
 noiseless-trained network evaluated WITHOUT retraining added as a second line.
 
 Reads the numbers straight from the run folders:
-  retrained at each dose : training/runs/e7_i0_1e4, e7_i0_1e5, e7_i0_1e6, e7_clean
+  retrained at each dose : training/runs/noise_i0_1e4, noise_i0_1e5, noise_i0_1e6, noise_noiseless
   no retraining          : training/runs/xeval/clean_on_i0_1e4, _1e5, _1e6
-                           (noiseless point = e7_clean evaluated on its own val set)
+                           (noiseless point = noise_noiseless evaluated on its own val set)
 Run from the repository root:  python analysis/make_fig_noise_response_v2.py
 Writes analysis/fig_noise_response_v2.png (the original file is untouched).
 """
@@ -23,8 +23,8 @@ def load(rel):
 
 doses   = ["1e4", "1e5", "1e6"]
 labels  = ["$10^4$", "$10^5$", "$10^6$", "noiseless"]
-retrain = [load(f"e7_i0_{d}") for d in doses] + [load("e7_clean")]
-xeval   = [load(f"xeval/clean_on_i0_{d}") for d in doses] + [load("e7_clean")]
+retrain = [load(f"noise_i0_{d}") for d in doses] + [load("noise_noiseless")]
+xeval   = [load(f"xeval/clean_on_i0_{d}") for d in doses] + [load("noise_noiseless")]
 
 x = list(range(4))
 fbp_psnr = [r["fbp_psnr"] for r in retrain]

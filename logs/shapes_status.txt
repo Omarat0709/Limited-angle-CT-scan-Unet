@@ -1,0 +1,7 @@
+============================================== 
+Shapes test started  24/07/2026 14:19:14.22 
+dataset built 14:19:27.09 
+xeval base_on_shapes done 14:19:36.65 
+shapes800 done 15:33:54.27 
+xeval shapes_on_pilot done 15:34:05.31 
+Shapes test finished 24/07/2026 15:34:05.54 

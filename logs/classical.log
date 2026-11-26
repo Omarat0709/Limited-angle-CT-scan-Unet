@@ -1,0 +1,185 @@
+.\training\evaluate_classical.py:68: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(ckpt_path, map_location=device)
+Loaded training\runs\20260622_154318\best_model.pt | trained epoch 100 | val PSNR at save 36.45 dB
+Scan config from dataset: 120 deg, 60 projections, noise I0=0
+
+[1/2] Held-out Shepp-Logan test...
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+Saved: .\training\runs\20260622_154318\classical_shepp_logan.png
+
+[2/2] OS-SART vs FBP vs U-Net on the validation set...
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  val 10/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  val 20/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  val 30/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  val 40/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  val 50/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  val 60/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  val 70/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  val 80/80
+
+=== Classical comparison summary (PSNR / SSIM) ===
+  Shepp-Logan (held-out) FBP  21.72 dB / 0.602   OS-SART  26.68 dB / 0.835   U-Net  17.48 dB / 0.422
+  Val set (n=80)         FBP  15.94 dB / 0.388   OS-SART  17.22 dB / 0.681   U-Net  36.45 dB / 0.960
+
+Saved: .\training\runs\20260622_154318\classical_summary.json

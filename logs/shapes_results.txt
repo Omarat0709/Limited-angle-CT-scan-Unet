@@ -1,0 +1,16 @@
+=== Out-of-distribution geometry (mixed shapes) ===
+model -> test set                   FBP dB  UNet dB    gain  FBP SSIM  UNet SSIM
+--------------------------------------------------------------------------------
+ellipse-trained -> ellipses (ref)    15.94    36.45  +20.52     0.388      0.960
+ellipse-trained -> SHAPES (a)        16.11    35.30  +19.19     0.397      0.956
+shapes-trained  -> shapes (b)        16.11    36.21  +20.09     0.397      0.960
+shapes-trained  -> ellipses          15.94    35.69  +19.76     0.388      0.957
+
+Read row (a) against the reference row: the drop is the price of the
+ellipse-only prior on unseen geometry. Read row (b) against (a): how much
+of that price shape-diverse training buys back. The last row shows
+whether shape diversity cost any in-distribution performance.
+
+Qualitative check: training\runs\xeval\base_on_shapes\comparison.png
+-- look for rounded corners, bent edges, or erased shapes in the
+U-Net column wherever the ground truth contains a square or triangle.

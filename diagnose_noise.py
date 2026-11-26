@@ -1,10 +1,10 @@
 """
-Diagnostic: why did the noisy limited-angle reconstructions fog out? (E3 post-mortem)
+Diagnostic: why did the noisy limited-angle reconstructions fog out? (first noise run post-mortem)
 =====================================================================================
 
 WHAT THIS ANSWERS
 -----------------
-In E3 the network's outputs retained the outer rim but lost the interior. This
+In the first noise run the network's outputs retained the outer rim but lost the interior. This
 script establishes the cause quantitatively, and it is the evidence for the
 answer given to the supervisor:
 
@@ -91,13 +91,13 @@ def main():
                          endpoint=False).astype(np.float32)
 
     print("=" * 74)
-    print("E3 POST-MORTEM: why the interior fogged out")
+    print("FIRST NOISE RUN POST-MORTEM: why the interior fogged out")
     print("=" * 74)
     print(f"geometry: {IMG_SIZE}x{IMG_SIZE}, 1 mm voxels, "
           f"{args.limited_deg:.0f} deg wedge, {args.n_proj} projections")
 
     proj_raw = line_integrals(phantom, geo_clean, angles)
-    report(proj_raw, args.i0, "AS RUN IN E3 (phantom values used directly as mu)")
+    report(proj_raw, args.i0, "AS FIRST RUN (phantom values used directly as mu)")
 
     proj_phys = line_integrals(phantom, geo_clean, angles, mu_water=args.mu_water)
     report(proj_phys, args.i0,
@@ -112,7 +112,7 @@ def main():
         os.makedirs("analysis", exist_ok=True)
         i0 = 1e5
         fig, ax = plt.subplots(2, 3, figsize=(14, 8))
-        for r, (pr, name) in enumerate([(proj_raw, "as run in E3"),
+        for r, (pr, name) in enumerate([(proj_raw, "as first run"),
                                         (proj_phys, f"rescaled (mu={args.mu_water})")]):
             sino = pr[:, 0, :]
             counts = i0 * np.exp(-sino)

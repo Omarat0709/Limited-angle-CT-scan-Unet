@@ -107,7 +107,7 @@ def random_shapes_phantom(rng, size=IMG_SIZE):
     """Like random_ellipse_phantom, but the internal structures are drawn from
     a MIXED shape family: ellipse, square, rectangle, triangle (uniformly).
 
-    Purpose (E9, out-of-distribution geometry test): the baseline network has
+    Purpose (out-of-distribution geometry test): the baseline network has
     only ever seen elliptical structures, so its learned prior may 'ellipsify'
     anything it reconstructs -- rounding corners, bending edges, or erasing
     unfamiliar shapes -- especially where the missing wedge removes exactly the
@@ -272,7 +272,7 @@ def main():
     p.add_argument("--shapes", action="store_true",
                    help="internal structures drawn from a mixed shape family "
                         "(ellipse/square/rectangle/triangle) instead of "
-                        "ellipses only -- the E9 out-of-distribution "
+                        "ellipses only -- the out-of-distribution "
                         "geometry test")
     args = p.parse_args()
 

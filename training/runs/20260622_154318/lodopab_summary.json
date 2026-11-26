@@ -1,0 +1,19 @@
+{
+  "n": 300,
+  "data": ".\\data\\lodopab_test",
+  "checkpoint": ".\\training\\runs\\20260622_154318\\best_model.pt",
+  "fbp_psnr": 18.096694652711292,
+  "fbp_psnr_std": 2.325554220049418,
+  "fbp_ssim": 0.5788713571937895,
+  "fbp_ssim_std": 0.07764935855240288,
+  "ossart_psnr": 27.22786707397361,
+  "ossart_psnr_std": 2.125756703592571,
+  "ossart_ssim": 0.7545636091776845,
+  "ossart_ssim_std": 0.07590398543626088,
+  "unet_psnr": 15.03100310804739,
+  "unet_psnr_std": 0.9647878966395035,
+  "unet_ssim": 0.48181695184155604,
+  "unet_ssim_std": 0.0727567688938074,
+  "unet_minus_ossart_psnr": -12.19686396592622,
+  "unet_minus_fbp_psnr": -3.0656915446639026
+}

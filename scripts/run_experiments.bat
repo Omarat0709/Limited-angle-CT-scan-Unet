@@ -1,14 +1,14 @@
 @echo off
 REM ============================================================================
-REM  run_experiments.bat  --  unattended experiment queue E1-E5
+REM  run_experiments.bat  --  unattended queue for the first five experiments
 REM  Deep Learning for Limited-Angle CT  (Omar El-Attar, MSc thesis)
 REM
 REM  WHAT IT RUNS, IN ORDER:
-REM    E1  Shepp-Logan held-out test + OS-SART on val set  (baseline run)
-REM    E2  Residual ablation           1 training run
-REM    E3  Noise robustness            1 dataset + 1 training run
-REM    E4  Severity sweep 90/150 deg   2 datasets + 2 training runs
-REM    E5  Data-size sweep 200/400     2 datasets + 2 training runs
+REM    1.  Shepp-Logan held-out test + OS-SART on val set  (baseline run)
+REM    2.  Residual ablation           1 training run
+REM    3.  Noise robustness            1 dataset + 1 training run
+REM    4.  Severity sweep 90/150 deg   2 datasets + 2 training runs
+REM    5.  Data-size sweep 200/400     2 datasets + 2 training runs
 REM  Each training run is followed by its evaluation automatically.
 REM
 REM  HOW TO RUN: double-click this file, or from an Anaconda Prompt:
@@ -39,68 +39,68 @@ if errorlevel 1 (
 echo ============================================== >> logs\queue_status.txt
 echo Queue started  %date% %time% >> logs\queue_status.txt
 
-REM ============================ E1 ==============================================
-echo [E1] Shepp-Logan test + OS-SART on val set...
-python training\evaluate_e1.py --run training\runs\20260622_154318 >logs\E1.log 2>&1
-if errorlevel 1 (echo E1 FAILED - see logs\E1.log >> logs\queue_status.txt) else (echo E1 done  %time% >> logs\queue_status.txt)
+REM ============================ classical comparison ==============================================
+echo [classical] Shepp-Logan test + OS-SART on val set...
+python training\evaluate_classical.py --run training\runs\20260622_154318 >logs\classical.log 2>&1
+if errorlevel 1 (echo classical comparison FAILED - see logs\classical.log >> logs\queue_status.txt) else (echo classical comparison done  %time% >> logs\queue_status.txt)
 
-REM ============================ E2: residual ablation ===========================
-echo [E2] Training no-residual ablation - about 45 min...
-python training\train_unet.py --run-name e2_no_residual --epochs 100 --batch-size 16 --amp --no-residual >logs\E2_train.log 2>&1
-if errorlevel 1 (echo E2 train FAILED - see logs\E2_train.log >> logs\queue_status.txt & goto e3)
-python training\evaluate_unet.py --run training\runs\e2_no_residual >logs\E2_eval.log 2>&1
-echo E2 done  %time% >> logs\queue_status.txt
+REM ============================ residual ablation ===========================
+echo [ablation] Training no-residual ablation - about 45 min...
+python training\train_unet.py --run-name ablation_no_residual --epochs 100 --batch-size 16 --amp --no-residual >logs\ablation_train.log 2>&1
+if errorlevel 1 (echo residual ablation train FAILED - see logs\ablation_train.log >> logs\queue_status.txt & goto noise_step)
+python training\evaluate_unet.py --run training\runs\ablation_no_residual >logs\ablation_eval.log 2>&1
+echo residual ablation done  %time% >> logs\queue_status.txt
 
-:e3
-REM ============================ E3: noise robustness ============================
-echo [E3] Noise dataset + training - about 1 hour...
+:noise_step
+REM ============================ noise robustness ============================
+echo [noise-v1] Noise dataset + training - about 1 hour...
 if not exist data\pilot_noise_1e5\meta.json (
-    python generate_dataset.py --n 800 --out data/pilot_noise_1e5 --noise-i0 100000 >logs\E3_gen.log 2>&1
+    python generate_dataset.py --n 800 --out data/pilot_noise_1e5 --noise-i0 100000 >logs\noise_unscaled_gen.log 2>&1
 )
-python training\train_unet.py --data data/pilot_noise_1e5 --run-name e3_noise_1e5 --epochs 100 --batch-size 16 --amp >logs\E3_train.log 2>&1
-if errorlevel 1 (echo E3 train FAILED - see logs\E3_train.log >> logs\queue_status.txt & goto e4)
-python training\evaluate_unet.py --run training\runs\e3_noise_1e5 --data data/pilot_noise_1e5 >logs\E3_eval.log 2>&1
-echo E3 done  %time% >> logs\queue_status.txt
+python training\train_unet.py --data data/pilot_noise_1e5 --run-name noise_unscaled_i0_1e5 --epochs 100 --batch-size 16 --amp >logs\noise_unscaled_train.log 2>&1
+if errorlevel 1 (echo first noise run train FAILED - see logs\noise_unscaled_train.log >> logs\queue_status.txt & goto sev90_step)
+python training\evaluate_unet.py --run training\runs\noise_unscaled_i0_1e5 --data data/pilot_noise_1e5 >logs\noise_unscaled_eval.log 2>&1
+echo first noise run done  %time% >> logs\queue_status.txt
 
-:e4
-REM ============================ E4: severity sweep ==============================
-echo [E4] 90-deg and 150-deg severity sweep - about 2 hours...
+:sev90_step
+REM ============================ severity sweep ==============================
+echo [severity] 90-deg and 150-deg severity sweep - about 2 hours...
 if not exist data\pilot_90deg\meta.json (
-    python generate_dataset.py --n 800 --out data/pilot_90deg --limited-deg 90 --n-proj 45 >logs\E4_gen90.log 2>&1
+    python generate_dataset.py --n 800 --out data/pilot_90deg --limited-deg 90 --n-proj 45 >logs\severity_gen90.log 2>&1
 )
-python training\train_unet.py --data data/pilot_90deg --run-name e4_90deg --epochs 100 --batch-size 16 --amp >logs\E4_train90.log 2>&1
-if errorlevel 1 (echo E4-90 train FAILED - see logs\E4_train90.log >> logs\queue_status.txt & goto e4b)
-python training\evaluate_unet.py --run training\runs\e4_90deg --data data/pilot_90deg >logs\E4_eval90.log 2>&1
-echo E4-90deg done  %time% >> logs\queue_status.txt
+python training\train_unet.py --data data/pilot_90deg --run-name severity_90deg --epochs 100 --batch-size 16 --amp >logs\severity_train90.log 2>&1
+if errorlevel 1 (echo severity-90 train FAILED - see logs\severity_train90.log >> logs\queue_status.txt & goto sev150_step)
+python training\evaluate_unet.py --run training\runs\severity_90deg --data data/pilot_90deg >logs\severity_eval90.log 2>&1
+echo severity-90deg done  %time% >> logs\queue_status.txt
 
-:e4b
+:sev150_step
 if not exist data\pilot_150deg\meta.json (
-    python generate_dataset.py --n 800 --out data/pilot_150deg --limited-deg 150 --n-proj 75 >logs\E4_gen150.log 2>&1
+    python generate_dataset.py --n 800 --out data/pilot_150deg --limited-deg 150 --n-proj 75 >logs\severity_gen150.log 2>&1
 )
-python training\train_unet.py --data data/pilot_150deg --run-name e4_150deg --epochs 100 --batch-size 16 --amp >logs\E4_train150.log 2>&1
-if errorlevel 1 (echo E4-150 train FAILED - see logs\E4_train150.log >> logs\queue_status.txt & goto e5)
-python training\evaluate_unet.py --run training\runs\e4_150deg --data data/pilot_150deg >logs\E4_eval150.log 2>&1
-echo E4-150deg done  %time% >> logs\queue_status.txt
+python training\train_unet.py --data data/pilot_150deg --run-name severity_150deg --epochs 100 --batch-size 16 --amp >logs\severity_train150.log 2>&1
+if errorlevel 1 (echo severity-150 train FAILED - see logs\severity_train150.log >> logs\queue_status.txt & goto n200_step)
+python training\evaluate_unet.py --run training\runs\severity_150deg --data data/pilot_150deg >logs\severity_eval150.log 2>&1
+echo severity-150deg done  %time% >> logs\queue_status.txt
 
-:e5
-REM ============================ E5: data-size sweep =============================
-echo [E5] 200-pair and 400-pair training-set sweep - about 1.5 hours...
+:n200_step
+REM ============================ data-size sweep =============================
+echo [datasize] 200-pair and 400-pair training-set sweep - about 1.5 hours...
 if not exist data\pilot_200\meta.json (
-    python generate_dataset.py --n 200 --out data/pilot_200 >logs\E5_gen200.log 2>&1
+    python generate_dataset.py --n 200 --out data/pilot_200 >logs\datasize_gen200.log 2>&1
 )
-python training\train_unet.py --data data/pilot_200 --run-name e5_n200 --epochs 100 --batch-size 16 --amp >logs\E5_train200.log 2>&1
-if errorlevel 1 (echo E5-200 train FAILED - see logs\E5_train200.log >> logs\queue_status.txt & goto e5b)
-python training\evaluate_unet.py --run training\runs\e5_n200 --data data/pilot_200 >logs\E5_eval200.log 2>&1
-echo E5-200 done  %time% >> logs\queue_status.txt
+python training\train_unet.py --data data/pilot_200 --run-name datasize_n200 --epochs 100 --batch-size 16 --amp >logs\datasize_train200.log 2>&1
+if errorlevel 1 (echo datasize-200 train FAILED - see logs\datasize_train200.log >> logs\queue_status.txt & goto n400_step)
+python training\evaluate_unet.py --run training\runs\datasize_n200 --data data/pilot_200 >logs\datasize_eval200.log 2>&1
+echo datasize-200 done  %time% >> logs\queue_status.txt
 
-:e5b
+:n400_step
 if not exist data\pilot_400\meta.json (
-    python generate_dataset.py --n 400 --out data/pilot_400 >logs\E5_gen400.log 2>&1
+    python generate_dataset.py --n 400 --out data/pilot_400 >logs\datasize_gen400.log 2>&1
 )
-python training\train_unet.py --data data/pilot_400 --run-name e5_n400 --epochs 100 --batch-size 16 --amp >logs\E5_train400.log 2>&1
-if errorlevel 1 (echo E5-400 train FAILED - see logs\E5_train400.log >> logs\queue_status.txt & goto summary)
-python training\evaluate_unet.py --run training\runs\e5_n400 --data data/pilot_400 >logs\E5_eval400.log 2>&1
-echo E5-400 done  %time% >> logs\queue_status.txt
+python training\train_unet.py --data data/pilot_400 --run-name datasize_n400 --epochs 100 --batch-size 16 --amp >logs\datasize_train400.log 2>&1
+if errorlevel 1 (echo datasize-400 train FAILED - see logs\datasize_train400.log >> logs\queue_status.txt & goto summary)
+python training\evaluate_unet.py --run training\runs\datasize_n400 --data data/pilot_400 >logs\datasize_eval400.log 2>&1
+echo datasize-400 done  %time% >> logs\queue_status.txt
 
 :summary
 REM ============================ Collect all results =============================
@@ -110,8 +110,8 @@ echo Queue finished %date% %time% >> logs\queue_status.txt
 echo.
 echo ==============================================================
 echo  ALL DONE. Results:
-echo    - per-run folders:   training\runs\e2_... e3_... e4_... e5_...
-echo    - E1 outputs:        training\runs\20260622_154318\e1_summary.json + e1_shepp_logan.png
+echo    - per-run folders:   training\runs\ablation_... noise_unscaled_... severity_... datasize_...
+echo    - classical outputs:     training\runs\20260622_154318\classical_summary.json + classical_shepp_logan.png
 echo    - results table:     logs\all_results.txt
 echo    - step log:          logs\queue_status.txt
 echo ==============================================================

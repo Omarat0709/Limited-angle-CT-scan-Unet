@@ -12,8 +12,8 @@ baseline_seed43 eval FAILED
 baseline_seed44 done 22:08:15.90 
 Block B done 23/07/2026 22:08:15.90 
 ============================================== 
-Block C (E8 angles) started 23/07/2026 22:08:23.72 
-E8 datasets built 22:11:30.46 
+Block C (angle patterns) started 23/07/2026 22:08:23.72 
+angle-pattern datasets built 22:11:30.46 
 gap60 done 23:33:28.28 
 multigap3x20 done  0:49:54.23 
 offset90 done  2:11:37.10 
@@ -22,8 +22,8 @@ multigap6x10 done  9:31:41.30
 offset45 done 10:46:11.99 
 Block C done 24/07/2026 10:46:12.00 
 ============================================== 
-Block D (e5_n1600) started 24/07/2026 10:46:22.08 
-e5_n1600 done 13:10:37.16 
+Block D (datasize_n1600) started 24/07/2026 10:46:22.08 
+datasize_n1600 done 13:10:37.16 
 Block D done 24/07/2026 13:10:37.17 
 ============================================== 
 Block B (seeds) started 24/07/2026 15:34:10.08 

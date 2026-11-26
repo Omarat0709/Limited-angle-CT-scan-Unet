@@ -1,0 +1,17 @@
+{
+  "data": "data/phys_i0_1e4",
+  "runs_dir": ".\\training\\runs",
+  "run_name": "noise_i0_1e4",
+  "epochs": 100,
+  "batch_size": 16,
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "val_frac": 0.1,
+  "base_channels": 64,
+  "no_residual": false,
+  "init_from": null,
+  "num_workers": 4,
+  "seed": 42,
+  "amp": true,
+  "device": "cuda"
+}

@@ -1,6 +1,6 @@
 """Collect the Week-2 queue results into one table.
 
-Reads eval_summary.json from the seed-repeat, E8 angle-study, data-efficiency
+Reads eval_summary.json from the seed-repeat, angle-pattern study, data-efficiency
 and cross-eval folders and prints grouped tables. Run by run_week2.bat from
 the repository root; output lands in logs\week2_results.txt. Safe to run at
 any time -- missing runs are reported as (missing), not errors.
@@ -49,7 +49,7 @@ if len(seed_psnrs) >= 2:
           f"{statistics.stdev(seed_psnrs):.2f} dB (mean +/- sample std)")
 
 print()
-print("=== D. E8 angle-pattern study (0.5 proj/deg throughout) ===")
+print("=== D. Angle-pattern study (0.5 proj/deg throughout) ===")
 print("--- 120-deg total coverage (comparator: contiguous baseline) ---")
 print(HDR)
 print(RULE)
@@ -57,18 +57,18 @@ print(row("contiguous (baseline)", load("20260622_154318")))
 for name in ["gap60", "multigap3x20", "multigap6x10",
              "offset45", "offset90"]:
     print(row(name, load(name)))
-print("--- 150-deg total coverage (comparator: e4_150deg) ---")
-print(row("contiguous (e4_150deg)", load("e4_150deg")))
+print("--- 150-deg total coverage (comparator: severity_150deg) ---")
+print(row("contiguous (150deg)", load("severity_150deg")))
 print(row("gap30", load("gap30")))
 
 print()
-print("=== E. Data efficiency (E5 + 1600-pair extension) ===")
+print("=== E. Data efficiency (data-size sweep + 1600-pair extension) ===")
 print(HDR)
 print(RULE)
-print(row("e5_n200", load("e5_n200")))
-print(row("e5_n400", load("e5_n400")))
+print(row("datasize_n200", load("datasize_n200")))
+print(row("datasize_n400", load("datasize_n400")))
 print(row("n800 (baseline)", load("20260622_154318")))
-print(row("e5_n1600", load("e5_n1600")))
+print(row("datasize_n1600", load("datasize_n1600")))
 
 print()
 print("=== A. Cross-condition evaluations (no retraining) ===")
@@ -78,6 +78,6 @@ for name in ["base_on_90deg", "base_on_150deg",
              "clean_on_i0_1e6", "clean_on_i0_1e5", "clean_on_i0_1e4"]:
     print(row(name, load("xeval", name)))
 print()
-print("Reference points: e4_90deg trained-in-domain 33.43 dB; "
-      "e4_150deg 40.79 dB;")
-print("e7_i0_1e6 37.40 dB; e7_i0_1e5 35.43 dB; e7_i0_1e4 33.09 dB.")
+print("Reference points: severity_90deg trained-in-domain 33.43 dB; "
+      "severity_150deg 40.79 dB;")
+print("noise_i0_1e6 37.40 dB; noise_i0_1e5 35.43 dB; noise_i0_1e4 33.09 dB.")

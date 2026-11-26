@@ -6,7 +6,7 @@ baseline_seed43              15.91    37.05  +21.15     0.390      0.961
 baseline_seed44              15.92    36.82  +20.89     0.389      0.959
 U-Net PSNR over 3 seeds: 36.77 +/- 0.30 dB (mean +/- sample std)
 
-=== D. E8 angle-pattern study (0.5 proj/deg throughout) ===
+=== D. Angle-pattern study (0.5 proj/deg throughout) ===
 --- 120-deg total coverage (comparator: contiguous baseline) ---
 run                         FBP dB  UNet dB    gain  FBP SSIM  UNet SSIM
 ------------------------------------------------------------------------
@@ -16,17 +16,17 @@ multigap3x20                 17.60    38.01  +20.42     0.341      0.955
 multigap6x10                 18.44    38.19  +19.75     0.341      0.968
 offset45                     16.01    36.83  +20.82     0.376      0.960
 offset90                     15.98    36.80  +20.82     0.391      0.970
---- 150-deg total coverage (comparator: e4_150deg) ---
-contiguous (e4_150deg)       19.16    40.79  +21.64     0.399      0.986
+--- 150-deg total coverage (comparator: severity_150deg) ---
+contiguous (150deg)          19.16    40.79  +21.64     0.399      0.986
 gap30                        19.12    40.03  +20.91     0.403      0.979
 
-=== E. Data efficiency (E5 + 1600-pair extension) ===
+=== E. Data efficiency (data-size sweep + 1600-pair extension) ===
 run                         FBP dB  UNet dB    gain  FBP SSIM  UNet SSIM
 ------------------------------------------------------------------------
-e5_n200                      15.95    33.08  +17.13     0.387      0.910
-e5_n400                      15.92    35.24  +19.32     0.394      0.931
+datasize_n200                15.95    33.08  +17.13     0.387      0.910
+datasize_n400                15.92    35.24  +19.32     0.394      0.931
 n800 (baseline)              15.94    36.45  +20.52     0.388      0.960
-e5_n1600                     15.83    38.93  +23.10     0.387      0.983
+datasize_n1600               15.83    38.93  +23.10     0.387      0.983
 
 === A. Cross-condition evaluations (no retraining) ===
 run                         FBP dB  UNet dB    gain  FBP SSIM  UNet SSIM
@@ -37,5 +37,5 @@ clean_on_i0_1e6              15.95    37.11  +21.17     0.387      0.960
 clean_on_i0_1e5              15.77    35.54  +19.76     0.367      0.951
 clean_on_i0_1e4              15.34    24.37   +9.04     0.292      0.788
 
-Reference points: e4_90deg trained-in-domain 33.43 dB; e4_150deg 40.79 dB;
-e7_i0_1e6 37.40 dB; e7_i0_1e5 35.43 dB; e7_i0_1e4 33.09 dB.
+Reference points: severity_90deg trained-in-domain 33.43 dB; severity_150deg 40.79 dB;
+noise_i0_1e6 37.40 dB; noise_i0_1e5 35.43 dB; noise_i0_1e4 33.09 dB.
