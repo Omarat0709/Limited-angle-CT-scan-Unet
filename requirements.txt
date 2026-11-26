@@ -1,0 +1,11 @@
+# Developed with Python 3.10 and a CUDA 12.1 build of PyTorch.
+# Versions are not pinned. Install the PyTorch build that matches your GPU
+# from https://pytorch.org before installing the rest.
+numpy
+torch
+scikit-image
+matplotlib
+h5py
+Pillow
+
+# TIGRE is not on this list. It is built from source, see the README.

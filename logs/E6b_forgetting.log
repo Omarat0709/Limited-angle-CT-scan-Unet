@@ -1,0 +1,12 @@
+.\training\evaluate_unet.py:51: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(ckpt_path, map_location=device)
+Loaded training\runs\e6b_finetune\best_model.pt | trained epoch 100 | val PSNR at save 34.09 dB
+
+=== Validation set (80 images) ===
+  FBP-LA  : 15.94 dB / 0.388
+  U-Net   : 18.12 dB / 0.547
+  Gain    : +2.18 dB / +0.160 SSIM
+  (OS-SART classical bar to beat: 25.1 dB / 0.819)
+
+Saved: .\training\runs\e6b_finetune\eval_summary.json
+Saved: .\training\runs\e6b_finetune\comparison.png

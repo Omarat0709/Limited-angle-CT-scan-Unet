@@ -1,0 +1,27 @@
+{
+  "checkpoint": ".\\training\\runs\\20260622_154318\\best_model.pt",
+  "data": ".\\data\\pilot_v1",
+  "sim_config": {
+    "limited_angle_deg": 120.0,
+    "n_proj_limited": 60,
+    "noise_i0": 0
+  },
+  "sart_iters": 20,
+  "shepp_logan": {
+    "fbp_psnr": 21.71896056930432,
+    "fbp_ssim": 0.6019430204141369,
+    "ossart_psnr": 26.67844675372574,
+    "ossart_ssim": 0.8352441413708749,
+    "unet_psnr": 17.476674556579695,
+    "unet_ssim": 0.4219726073221223
+  },
+  "val_set": {
+    "fbp_psnr": 15.93528047570365,
+    "fbp_ssim": 0.3875582807010361,
+    "ossart_psnr": 17.219608405018313,
+    "ossart_ssim": 0.6812451666248864,
+    "unet_psnr": 36.45413911223917,
+    "unet_ssim": 0.9596240633812302,
+    "n": 80
+  }
+}

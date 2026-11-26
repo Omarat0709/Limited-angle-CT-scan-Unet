@@ -1,0 +1,10 @@
+{
+  "n": 400,
+  "img_size": 256,
+  "geometry": "parallel-beam 2D (as limited_angle_demo.py)",
+  "limited_angle_deg": 120.0,
+  "n_proj_limited": 60,
+  "noise_i0": 0,
+  "seed": 42,
+  "tigre_version": "unknown"
+}

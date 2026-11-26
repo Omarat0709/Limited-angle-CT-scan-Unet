@@ -1,0 +1,19 @@
+Generating 800 pairs | mode=contiguous | 60 projections | angles 0.0-118.0 deg | noise I0=100000.0 | mu_water=0.02
+  50/800
+  100/800
+  150/800
+  200/800
+  250/800
+  300/800
+  350/800
+  400/800
+  450/800
+  500/800
+  550/800
+  600/800
+  650/800
+  700/800
+  750/800
+  800/800
+Preview saved to data/phys_i0_1e5/preview.png
+Done.

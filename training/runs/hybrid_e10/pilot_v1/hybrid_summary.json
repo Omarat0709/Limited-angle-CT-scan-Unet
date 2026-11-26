@@ -1,0 +1,16 @@
+{
+  "data": "data/pilot_v1",
+  "ckpt": "training\\runs\\20260622_154318\\best_model.pt",
+  "n": 80,
+  "cycles": 1,
+  "grid_step_deg": 0.25,
+  "dc_solver": "ossart",
+  "dc_iters": 15,
+  "fbp_psnr": 15.93528047570365,
+  "fbp_ssim": 0.3875582807010361,
+  "unet_psnr": 36.45413911223917,
+  "unet_ssim": 0.9596240633812302,
+  "hybrid_psnr": 36.60520557222186,
+  "hybrid_ssim": 0.9735202795410599,
+  "hybrid_minus_unet_psnr": 0.15106645998269386
+}

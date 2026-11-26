@@ -1,0 +1,2403 @@
+============================================== 
+E10 v2 run  26/07/2026 20:46:11.62 
+.\reconstruct_hybrid.py:65: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(ckpt_path, map_location=device)
+data/pilot_v1 | 80 images | 60 angles | cycles=1 grid_step=0.25 deg
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  25/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  50/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  75/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+
+=== data/pilot_v1 (80 images) ===
+  FBP    : 15.94 dB / 0.388
+  U-Net  : 36.45 dB / 0.960
+  Hybrid : 36.61 dB / 0.974   (+0.15 dB vs U-Net)
+Saved: training\runs\hybrid_e10\pilot_v1\hybrid_summary.json and hybrid_comparison.png
+.\reconstruct_hybrid.py:65: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(ckpt_path, map_location=device)
+data/pilot_shapes | 80 images | 60 angles | cycles=1 grid_step=0.25 deg
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  25/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  50/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+  75/80
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+
+=== data/pilot_shapes (80 images) ===
+  FBP    : 16.11 dB / 0.397
+  U-Net  : 35.30 dB / 0.956
+  Hybrid : 35.42 dB / 0.969   (+0.12 dB vs U-Net)
+Saved: training\runs\hybrid_e10\pilot_shapes\hybrid_summary.json and hybrid_comparison.png
+.\reconstruct_hybrid.py:65: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(ckpt_path, map_location=device)
+data/e6_lodopab_test | 300 images | 60 angles | cycles=1 grid_step=0.25 deg
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  25/300
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+  50/300
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+  75/300
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  100/300
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  125/300
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  150/300
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+  175/300
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+  200/300
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+  225/300
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+  250/300
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+  275/300
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:01
+  300/300
+
+=== data/e6_lodopab_test (300 images) ===
+  FBP    : 18.10 dB / 0.579
+  U-Net  : 15.03 dB / 0.482
+  Hybrid : 15.30 dB / 0.484   (+0.27 dB vs U-Net)
+Saved: training\runs\hybrid_e10\e6_lodopab_test\hybrid_summary.json and hybrid_comparison.png
+.\reconstruct_hybrid.py:65: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(ckpt_path, map_location=device)
+data/pilot_v1 | 80 images | 60 angles | cycles=1 grid_step=0.25 deg
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+
+=== prior<->data trade-off (data/pilot_v1, 20 images) ===
+  OS-SART iters (0 = pure U-Net) -> mean PSNR:
+      0:  36.46 dB
+      1:  36.68 dB
+      2:  36.80 dB
+      3:  36.88 dB
+      5:  36.99 dB
+      8:  37.11 dB
+     12:  37.22 dB
+     20:  37.38 dB
+     30:  37.51 dB
+Saved: training\runs\hybrid_e10\pilot_v1\tradeoff_sweep.json
+.\reconstruct_hybrid.py:65: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(ckpt_path, map_location=device)
+data/e6_lodopab_test | 300 images | 60 angles | cycles=1 grid_step=0.25 deg
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+
+=== prior<->data trade-off (data/e6_lodopab_test, 20 images) ===
+  OS-SART iters (0 = pure U-Net) -> mean PSNR:
+      0:  14.87 dB
+      1:  18.53 dB
+      2:  19.25 dB
+      3:  19.73 dB
+      5:  20.41 dB
+      8:  21.09 dB
+     12:  21.69 dB
+     20:  22.43 dB
+     30:  22.98 dB
+Saved: training\runs\hybrid_e10\e6_lodopab_test\tradeoff_sweep.json
+E10 v2 finished 26/07/2026 20:55:03.00 
+============================================== 
+E10 deep sweep  26/07/2026 21:05:44.36 
+.\reconstruct_hybrid.py:65: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(ckpt_path, map_location=device)
+data/pilot_v1 | 80 images | 60 angles | cycles=1 grid_step=0.25 deg
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+
+=== prior<->data trade-off (data/pilot_v1, 20 images) ===
+  OS-SART iters (0 = pure U-Net) -> mean PSNR:
+      0:  36.46 dB
+      1:  36.68 dB
+      2:  36.80 dB
+      3:  36.88 dB
+      5:  36.99 dB
+      8:  37.11 dB
+     12:  37.22 dB
+     20:  37.38 dB
+     30:  37.51 dB
+     50:  37.67 dB
+     75:  37.77 dB
+    100:  37.83 dB
+    150:  37.91 dB
+Saved: training\runs\hybrid_e10\pilot_v1\tradeoff_sweep.json
+.\reconstruct_hybrid.py:65: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(ckpt_path, map_location=device)
+data/e6_lodopab_test | 300 images | 60 angles | cycles=1 grid_step=0.25 deg
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+OSSART algorithm in progress.
+Estimated time until completion : 00:00:00
+
+=== prior<->data trade-off (data/e6_lodopab_test, 20 images) ===
+  OS-SART iters (0 = pure U-Net) -> mean PSNR:
+      0:  14.87 dB
+      1:  18.53 dB
+      2:  19.25 dB
+      3:  19.73 dB
+      5:  20.41 dB
+      8:  21.09 dB
+     12:  21.69 dB
+     20:  22.43 dB
+     30:  22.98 dB
+     50:  23.57 dB
+     75:  23.96 dB
+    100:  24.21 dB
+    150:  24.52 dB
+Saved: training\runs\hybrid_e10\e6_lodopab_test\tradeoff_sweep.json
+Deep sweep finished 26/07/2026 21:06:28.50 
