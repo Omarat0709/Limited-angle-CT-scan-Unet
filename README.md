@@ -147,8 +147,15 @@ described above. No results were changed.
 ## Acknowledgements
 
 Thank you to Prof. Manuchehr Soleimani for supervising the project and for the
-introduction to TIGRE. Real CT data comes from the LoDoPaB-CT benchmark, which
-is built on the LIDC-IDRI collection.
+introduction to TIGRE.
+
+The real CT slices shown in the figures and used in the real-data experiments
+come from the LoDoPaB-CT dataset (Leuschner et al., 2021). This repository
+contains information from LoDoPaB-CT, which is made available under the ODC
+Attribution License (ODC-By) v1.0. LoDoPaB-CT is built on the LIDC-IDRI
+collection hosted by The Cancer Imaging Archive, which is published under the
+Creative Commons Attribution 3.0 Unported licence (Armato et al., 2011, Clark et
+al., 2013).
 
 As declared in the dissertation, Claude was used as an assistive tool for coding
 support on the experiment scripts. It was not used to fabricate or analyse any
@@ -165,6 +172,12 @@ results or data.
 - Leuschner, J., Schmidt, M., Baguer, D.O. and Maass, P. (2021) 'LoDoPaB-CT, a
   benchmark dataset for low-dose computed tomography reconstruction',
   *Scientific Data*, 8, 109.
+- Armato, S.G. et al. (2011) 'The Lung Image Database Consortium (LIDC) and
+  Image Database Resource Initiative (IDRI): a completed reference database of
+  lung nodules on CT scans', *Medical Physics*, 38(2), pp. 915-931.
+- Clark, K. et al. (2013) 'The Cancer Imaging Archive (TCIA): maintaining and
+  operating a public information repository', *Journal of Digital Imaging*,
+  26(6), pp. 1045-1057.
 
 ## Licence
 
